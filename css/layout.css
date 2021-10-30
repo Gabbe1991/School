@@ -3,6 +3,11 @@
 .max-width {max-width: 192rem   ;}
 .logo-width {max-width: 13rem ;}
 
+/*Position*/
+
+.position-relative { position: relative !important; }
+.position-absolute { position: absolute !important; }
+
 
 /* margin */
 
@@ -40,6 +45,17 @@
 /*Typography*/
 .text-decoration-none { text-decoration: none;}
 
+.text-size-xxs
+.text-size-xs
+.text-size-sm
+.text-size-md
+.text-size-lg
+.text-size-xl
+.text-size-xxl
+.text-size
+
+
+
 .lh-sm { line-height: var(--line-height-sm);}
 .lh-md { line-height: var(--line-height-md);}
 .lh-lg { line-height: var(--line-height-lg);}
@@ -49,6 +65,23 @@
 
 /*Shadows*/
 .shadow-sm { box-shadow: var(--shadow-small-light); }
+
+
+/*Buttons*/
+
+nav div a:not(:first-child) { margin-left:var(--distance-12);}
+.icon-badge {
+top: -8px;
+right: -8px;
+padding: var(--distance-1) var(--distance-3)
+
+
+
+}
+
+/*Borders*/
+
+.border-small-white { border: var(--border-xs-white); }
 
 
 /*Colored bar*/
