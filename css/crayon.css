@@ -22,10 +22,6 @@
     background: var(--crayon-color);
     box-shadow: 2px 2px 3px var(--crayon-shadow-color);
 
-    background-image: var(--crayon-color);
-    box-shadow: 2px 2px 3px var(--crayon-shadow-color);
-
-
     background-image:
     /* 3d shadow at the bottom */
     linear-gradient(to bottom, transparent 62%, var(--crayon-shadow-color) 100%),
@@ -64,7 +60,7 @@
     linear-gradient(to right,
         transparent 8%, var(--crayon-paper-color) 8%,
         var(--crayon-paper-color) 92%, transparent 92%
-    ),
+    );
 
 
 
