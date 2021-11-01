@@ -1,13 +1,14 @@
 /*DISPLAY*/
 
 
-.d-flex{ display: flex; }
+.d-flex { display: flex; }
+.d-none {display: none; }
 
 /*FLEX*/
 .flex-grow {flex-grow: 1; }
 .flex-row { flex-direction: row;}
 .flex-column { flex-direction: column;}
-
+.flex-row-reverse { flex-direction: row-reverse; }
 
 /*align and justify*/
 
