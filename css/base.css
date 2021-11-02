@@ -125,7 +125,7 @@ body {
 .text-secondary{ color:var(--color-secondary); }
 .text-succes{ color:var(--color-succes); }
 .text-info{ color:var(--color-info); }
-.text-warning{ color:var(--color-warning); margin: 0 1rem; }
+.text-warning{ color:var(--color-warning); }
 .text-danger{ color:var(--color-danger); }
 .text-light{ color:var(--color-light); }
 .text-dark{ color:var(--color-dark); }
