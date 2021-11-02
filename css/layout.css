@@ -1,7 +1,8 @@
 /*widths*/
 
 .max-width {max-width: 192rem   ;}
-.logo-width {max-width: 13rem ;}
+.logo-width {max-width: 13rem; }
+.card-width {max-width: 60rem; }
 
 /*Position*/
 
@@ -43,7 +44,7 @@
 
 
 /*Padding*/
-.p-4 { padding: var(--distance-4); }
+.  { padding: var(--distance-4); }
 .p-5 { padding: var(--distance-5); }
 .p-6 { padding: var(--distance-6); }
 .p-8 { padding: var(--distance-8); }
@@ -59,6 +60,7 @@
 .text-decoration-none { text-decoration: none;}
 .text-center { text-align: center; }
 .text-uppercase { text-transform: uppercase; }
+.text-bold { font-weight: bold; }
 
 .text-size-xxs
 .text-size-xs
@@ -68,6 +70,7 @@
 .text-size-xl
 .text-size-xxl
 .text-size
+
 
 
 
@@ -115,6 +118,7 @@ padding: var(--distance-1) var(--distance-3)
 /*images*/
 
 .logo-width {max-width: 13rem ;}
+.img-lg-width { max-width: 60%; }
 
 /*slideshow*/
 
